@@ -10,5 +10,8 @@ state_dict = torch.load(checkpoint)
 model = torchvision.models.resnet18().load_state_dict(state_dict)
 
 # Weights can also be loaded from a URL using torch hub, see hubconf.py for list of supported models
-model = torch.hub.load('jpl-clover/weights:main', 'resnet18_distilled_from_r101_1x_sk0_finetuned_on_100pctMSL', force_reload=True)
-
+model = torch.hub.load(
+    "jpl-clover/weights:main",
+    "resnet18_distilled_from_r101_1x_sk0_finetuned_on_100pctMSL",
+    force_reload=True,
+)

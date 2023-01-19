@@ -12,3 +12,6 @@ self-supervised-distillation-for-computer-vision-onboard-planetary-robots
 ## How to load these weights?
 
 See ```example_usage.py```.
+
+## Classification example
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jpl-clover/weights/blob/devel/classification_demo.ipynb)
